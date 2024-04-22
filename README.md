@@ -12,6 +12,8 @@ This repository containts an example web app for renting lego flowers.
 
 ### Backend
 
-Initialize the backend with the [spring initializr webtool](https://start.spring.io/).
+1. Initialize the backend with the [spring initializr webtool](https://start.spring.io/).
 
-TODO: Add screenshot!
+![Configuration](spring-initializr.png)
+
+You can use the tool to configure the project as desired and let it generate the initial project setup.
