@@ -1,4 +1,4 @@
-package config;
+package com.example.demo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
@@ -15,7 +15,6 @@ public class WebConfig implements WebMvcConfigurer{
                 .allowedMethods("*")
                 .allowedOrigins(
                         "http://localhost:5173",
-                        "http://localhost:5173/",
                         "https://webtech-legoflowers-frontend.onrender.com/"
                 );
     }
